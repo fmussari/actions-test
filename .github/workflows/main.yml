@@ -37,3 +37,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo "$GITHUB_CONTEXT"
+          echo "Deploying to production server on branch $GITHUB_REF"
