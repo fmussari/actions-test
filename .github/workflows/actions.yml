@@ -2,11 +2,11 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0 6 * * 6' # At 06:00 on Saturday
+    - cron: '15 20 * * 6' # At 06:00 on Saturday
 
 jobs:
   build:
-  
+
     runs-on: ubuntu-latest
 
     steps:
